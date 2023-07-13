@@ -2,7 +2,6 @@
 #include <unistd.h>
 /**
  * main - This is the last task
- *
  * Return: 1 (Success)
  */
 int main(void)
