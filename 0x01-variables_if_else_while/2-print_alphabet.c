@@ -5,13 +5,11 @@
  * Return: 0 (Success)
  *
  */
-
 int main(void)
 {
 	char e;
-
 	e = 'a';
-	while (e <= 'z')
+	while(e <= 'z')
        	{
 		putchar(e);
 		e++;
