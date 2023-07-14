@@ -8,13 +8,16 @@ int main(void)
 {
 	char d;
 	int e;
+
 	e = 0;
 	d = 'a';
-	while ( e < 10) {
+	while ( e < 10)
+	{
 		putchar(e + '0');
 		e++;
 	}
-	while (d <= 'f') {
+	while (d <= 'f')
+	{
 		putchar(d);
 		d++;
 	}
