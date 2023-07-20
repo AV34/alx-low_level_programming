@@ -1,20 +1,18 @@
-#include <main.h>
+#include <stdio.h>
 /**
- * print_number - Prints integer
- * @n: The integer to be printed.
+ * main - Prints out the larget prime factor of 612852475143
+ * Return:return 0 with success.
  */
-void print_number(int n)
+int main(void)
 {
-	unsigned int num = n;
+	long i;
+	long num = 612852475143;
 
-	if (n < 0)
+	for (i = 2; i < num; i++)
 	{
-		_putchar('-');
-		num = -num
+		if (num % i == 0)
+			num /= i;
 	}
-
-	if ((num / 10) > 0)
-		print_number(num / 10);
-
-	_putchar((num % 10) + '0');
+	printf("%li\n", num);
+	return (0);
 }
