@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <main.h>
 /**
- * print_number - Prints out the larget prime factor of 612852475143
- * Return:return 0 with success.
+ * print_number - Prints integer
+ * @n: The integer to be printed.
  */
 void print_number(int n)
 {
