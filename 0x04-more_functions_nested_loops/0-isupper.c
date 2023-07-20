@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isupper - prg checks for uppsercse character
+ * _isupper -prog checks for uppsercse character
  * @c: Variable text
- * Reture: Always 0.
+ * Return: Always 0.
  */
 int _isupper(int c)
 {
