@@ -6,7 +6,7 @@
  */
 void puts2(char *str)
 {
-	in longi = 0;
+	int longi = 0;
 	int t = 0;
 	char *y = str;
 	int o;
