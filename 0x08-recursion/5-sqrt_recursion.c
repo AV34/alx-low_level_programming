@@ -15,7 +15,7 @@ int checker(int n, int base)
 	return (checker(n + 1, base));
 }
 /**
- * _sqrt_recursion - function that return the natural square root of a number n.
+ * _sqrt_recursion - funcn that return the natural square root of a number n.
  * @n: number to check for square roots.
  * Return: the natural square root of number n
  */
